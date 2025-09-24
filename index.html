@@ -3,84 +3,16 @@
   <head>
     <title>About Me</title>
     <p class="welcome">Welcome to my Page</p>
-    <style>
-      p.welcome {
-        text-align: center;
-        font-size: 40px;
-        font-weight: bold;
-      }
-      body {
-        background-color: rgb(224, 229, 231);
-      }
-      img {
-        margin: auto;
-        width: 300px;
-        height: 300px;
-        border-radius: 400px;
-        display: block;
-      }
-      p.name {
-        text-align: center;
-        font-size: 30px;
-        font-weight: bold;
-        margin-bottom: 20px;
-      }
-      a.github {
-        text-decoration: none;
-        font-size: 20px;
-        font-weight: bold;
-        color: black;
-        vertical-align: left;
-        margin-left: 5px;
-      }
-
-      .container-github {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-left: 680px;
-      }
-      .element-github {
-        display: flex;
-        padding: 5px;
-        border: 1px solid black;
-      }
-      .element-github:hover {
-        background-color: lightgray;
-      }
-
-      a.facebook {
-        text-decoration: none;
-        font-size: 20px;
-        font-weight: bold;
-        color: black;
-        vertical-align: left;
-        margin-left: 5px;
-      }
-
-      .container-facebook {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-left: 715px;
-        margin-top: 10px;
-      }
-      .element-facebook {
-        display: flex;
-        padding: 5px;
-        border: 1px solid black;
-      }
-      .container-facebook :hover {
-        background-color: lightgray;
-      }
-    </style>
+<link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <img src="images/image1.jpg" alt="Could not load"">
   </body>
   <p class="name">Rafiul Islam</p>
+  <div class="social-container">
+
   <div class="container-github">
-    <div class="element-github">
+    <a class="element-github" href="https://github.com/rafiulrafi55" target="_blank">
       <svg
         height="25"
         aria-hidden="true"
@@ -95,10 +27,10 @@
         ></path>
       </svg>
 
-      <a class="github" href="https://github.com/rafiulrafi55" target="_blank"
-        >@rafiulrafi55</a
+      <p class="github" 
+        >@rafiulrafi55</p
       >
-    </div>
+    </a>
   </div>
   <div class="container-facebook">
     <div class="element-facebook">
@@ -126,5 +58,6 @@
         >Ra Fi</a
       >
     </div>
+  </div>
   </div>
 </html>
