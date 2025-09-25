@@ -36,6 +36,7 @@ p.welcome {
         
       }
       .element-github {
+        height: 25PX;
         display: flex;
         justify-content: space-between;
         font-weight: bold;
@@ -47,9 +48,10 @@ p.welcome {
         background-color: lightgray;
       }
 
-      a.facebook {
+      .facebook {
         text-decoration: none;
-        font-size: 20px;
+      
+        font-size: 19px;
         font-weight: bold;
         color: black;
         vertical-align: left;
@@ -59,24 +61,60 @@ p.welcome {
       }
 
       .container-facebook {
+        
         display: flex;
-        justify-content: space-evenly;  
+        justify-content: space-between;
         align-items: center;
         
         
         
       }
       .element-facebook {
+        height: 25PX;
         display: flex;
         justify-content: space-between;
-        padding: 5px;
+        font-weight: bold;
+        align-items: center;
+        padding: 3px; 
         border: 1px solid black;
       }
       .container-facebook :hover {
         background-color: lightgray;
       }
       .social-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+      display: flex;
+       gap: 20px;
+       align-items: center;
+       justify-content: center;
+        
+    
+      }
+
+     a {
+      text-decoration: none;
+     }
+     .container-linkedin {
+         display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .element-linkedin {
+        height: 25PX;
+        display: flex;
+        justify-content: space-between;
+        font-weight: bold;
+        align-items: center;
+        padding: 3px; 
+        border: 1px solid black;
+      }
+      .element-linkedin:hover {
+        background-color: lightgray;
+      }
+      .linkedin {
+        text-decoration: none;
+        font-size: 19px;
+        font-weight: bold;
+        color: black;
+        vertical-align: left;
+        margin-left: 10px;
       }
